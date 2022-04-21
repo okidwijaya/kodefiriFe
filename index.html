@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodegiri Test no 7</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kodegiri Array Object</h1>
+    <div align="center">
+        <h3 id="data">Welcome</h3>
+        <button style="margin:3% auto" type="button" onclick="newValue()">Click me!</button>
+    </div>
+
+    <br><br>
+    <div align="center">
+        <table id="data-list" border="1">
+            <thead>
+                <tr>
+                    <th>Select ID</th>
+                    <th>User ID</th>
+                    <!-- <th>ID</th> -->
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody id="table">
+            </tbody>
+        </table>
+    </div>
+    <div id="delBtn" align="center" style="margin:5%">
+        <input type=button value="delete" id="delete">
+    </div>
+    <!-- <div id="table"></div> -->
+
+    <div style="margin:auto; display:flex;  justify-content:center;">
+        <label><strong>Hash javaScript SHA256</strong></lab>
+        <form style="margin-top:20px" action='#' method='post'>
+            Enter a text:<br/>
+            <input type='text' name='strex' id='strex' size='25' />
+            <input type='button' id='cryptstr' value='Encrypt' />
+            <br/> SHA256 hash string:<br/>
+            <input type='text' name='strcrypt' id='strcrypt' size='58' />
+        </form>
+    </div>
+    <script src=" /index.js "></script>
+</body>
+
+</html>
